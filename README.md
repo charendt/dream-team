@@ -88,8 +88,8 @@ Activate the virtual environment
 ```
 
 ```bash
-playwright install --with-deps chromium
 pip install -r .\src\requirements.txt
+playwright install --with-deps chromium
 ```
 
 ## Install dependencies
