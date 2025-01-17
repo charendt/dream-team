@@ -53,6 +53,7 @@ azd up
 ```
 
 # Working locally  
+## Using UV
 ```bash  
 cd src 
 ```
@@ -75,6 +76,21 @@ To deactivate :
 deactivate
 ```
 > More information about virtual environments can be found [here](https://docs.python.org/3/tutorial/venv.html)
+
+## Using venv
+Create a new environment
+```bash
+python -m venv dream-team
+```
+Activate the virtual environment
+```bash
+.\dream-team\Scripts\activate
+```
+
+```bash
+playwright install --with-deps chromium
+pip install -r .\src\requirements.txt
+```
 
 ## Install dependencies
 ```bash

@@ -275,7 +275,7 @@ if not st.session_state['running']:
     # Update session state with instructions
     st.session_state['instructions'] = instructions
     
-    run_mode_locally = st.toggle("Run Locally", value=False)
+    run_mode_locally = st.toggle("Run Locally", value=True)
     if run_mode_locally:
         st.session_state["run_mode_locally"] = True
         st.caption("Run Locally: Run the workflow in a Docker container on your local machine.")
