@@ -194,11 +194,11 @@ def delete_agent(input_key = None):
                 st.rerun()
     
 
-image_path = "contoso.png"  
-  
+image_path = "./img/hexagon-logo-svg.svg"  
+
 # Display the image in the sidebar  
 with st.sidebar:
-    st.image(image_path, use_container_width=True) 
+    st.image(image_path, use_container_width=True)
 
     with st.container(border=True):
         st.caption("Settings:")
